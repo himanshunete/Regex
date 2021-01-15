@@ -46,7 +46,6 @@ public class UserRegistration{
       mobilenumberobj.mobilenumber();
       AllCases passwordobj = new AllCases();
       passwordobj.password();
-
    }
 }
 
