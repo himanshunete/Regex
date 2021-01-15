@@ -1,0 +1,16 @@
+import java.util.Scanner;
+import java.util.regex.*;
+
+public class UserRegistrationUC8{
+   public static void main(String[] args){
+      Scanner enterRule4 = new Scanner(System.in);
+      System.out.println(" Enter a Password Rule-4 ");
+      String passwordRule4 = enterRule4.nextLine();
+      System.out.println(Pattern.matches( "^[A-Z]{1}[a-zA-Z]{7,}([0-9]+)[@#$%^&*+-_]{1}$", passwordRule4));
+   }
+}
+
+
+
+
+
